@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { supabase } from "../../lib/supabaseClient";
+export const dynamic = "force-dynamic";
 
+import { useState, useEffect } from "react";
 const LOW_STOCK_THRESHOLD = 5;
 
 // ส่งข้อความแจ้งเตือนผ่าน API route ของเราเอง (ไม่ยิง Telegram ตรงจาก client)
