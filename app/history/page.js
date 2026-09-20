@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { supabase } from "../../lib/supabaseClient";
+export const dynamic = "force-dynamic";
 
+import { useState, useEffect } from "react";
 export default function HistoryPage() {
   // รายการประวัติการขายทั้งหมด
   const [sales, setSales] = useState([]);
