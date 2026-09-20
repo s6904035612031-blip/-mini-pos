@@ -1,8 +1,6 @@
 "use client";
-
 import { useState, useEffect } from "react";
-import { supabase } from "../../lib/supabaseClient";
-
+import { supabase } from "../lib/supabaseClient";
 export default function SellPage() {
   // รายการสินค้าทั้งหมด สำหรับ dropdown
   const [products, setProducts] = useState([]);
